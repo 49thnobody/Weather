@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Weather.SettingsPage"
+             Appearing="ContentPage_Appearing">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entryName"/>
+            <Picker x:Name="pickerType"/>
+            <Entry x:Name="entry1Month"/>
+            <Entry x:Name="entry2Month"/>
+            <Entry x:Name="entry3Month"/>
+            <Entry x:Name="entry4Month"/>
+            <Entry x:Name="entry5Month"/>
+            <Entry x:Name="entry6Month"/>
+            <Entry x:Name="entry7Month"/>
+            <Entry x:Name="entry8Month"/>
+            <Entry x:Name="entry9Month"/>
+            <Entry x:Name="entry10Month"/>
+            <Entry x:Name="entry11Month"/>
+            <Entry x:Name="entry12Month"/>
+            <Button x:Name="buttonAdd"
+                    Clicked="buttonAdd_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
